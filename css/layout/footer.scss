@@ -6,7 +6,7 @@ footer {
 
 footer::after {
   content: "";
-  background: url(../../imagens/fundo-rodape.png);
+  background: url(./../imagens/fundo-rodape.png);
   opacity: .02;
   top: 0;
   left: 0;
@@ -85,13 +85,13 @@ footer a {
 }
 
 .social a[href*="facebook"] {
-  background-image: url(../../imagens/facebook.png);
+  background-image: url(./../imagens/facebook.png);
 }
 
 .social a[href*="twitter"] {
-  background-image: url(../../imagens/twitter.png);
+  background-image: url(./../imagens/twitter.png);
 }
 
 .social a[href*="instagram"] {
-  background-image: url(../../imagens/instagram.png);
+  background-image: url(./../imagens/instagram.png);
 }

@@ -63,14 +63,14 @@
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  @include borda-arredonda;
+  @include borda-arredondada;
   border-radius: $raio;
   @include sombra-padrao;
   margin-left: 2em;
 }
 
 .icone-check, .icone-x {
-  background: url(../../imagens/sprite.png) no-repeat;
+  background: url(./../imagens/sprite.png) no-repeat;
   width: 18px;
   height: 18px;
 }
