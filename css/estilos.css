@@ -380,8 +380,8 @@ h2 {
 
 /** Header **/
 header {
-  border-top: 5px solid #b71c1c;
-  background: rgba(236, 64, 122, 0.8);
+  border-top: 5px solid #4bbfc2;
+  background: rgba(30, 44, 53, 0.8);
   height: 90px;
   width: 100%;
   position: absolute; }
@@ -502,7 +502,8 @@ header .container {
     float: right; }
 
 .planos {
-  background: #ec407a; }
+  background: #1e2c35;
+}
 
 .planos h2 {
   color: #fff; }
@@ -520,7 +521,7 @@ header .container {
 .plano h3 {
   color: #fff;
   font-size: 1.8em;
-  background: #b71c1c;
+  background: #4bbfc2;
   text-align: center;
   height: 2em;
   padding-top: .6em;
@@ -528,11 +529,11 @@ header .container {
 
 .plano div {
   text-align: center;
-  color: #b71c1c;
+  color: #4bbfc2;
   font-size: 2.75em; }
 
 .plano button {
-  background: #b71c1c;
+  background: #4bbfc2;
   border: 0;
   color: #fff;
   width: 210px;
@@ -555,46 +556,6 @@ header .container {
 
 .icone-x {
   background-position: -33px -5px; }
-
-/** Blog **/
-.blog {
-  display: block;
-  position: relative; }
-
-.blog::after {
-  content: "";
-  background: url(../../imagens/fundo.png);
-  background-size: 25px 25px;
-  opacity: .15;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1; }
-
-.post-destaque,
-.posts-antigos {
-  width: 48%;
-  display: inline-block;
-  vertical-align: top; }
-
-.post-destaque {
-  margin-right: 2em; }
-
-.post-destaque img {
-  width: 100%; }
-
-.posts-antigos a {
-  text-decoration: none;
-  color: black;
-  background: url(../../imagens/icone-relogio.png) left center no-repeat;
-  padding-left: 2.5em;
-  height: 1.7em;
-  display: block; }
-
-.posts-antigos a:hover {
-  text-decoration: underline; }
 
 /** Contato **/
 .contato input,
@@ -645,7 +606,7 @@ footer::after {
 
 footer::before {
   content: "";
-  background: #ec407a;
+  background: #1e2c35;
   top: 0;
   left: 0;
   bottom: 0;
